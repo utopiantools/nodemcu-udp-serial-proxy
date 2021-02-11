@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -z "$1" ]
+then
+	nodemcu-tool upload *.lua
+else
+	nodemcu-tool upload "$1"
+fi

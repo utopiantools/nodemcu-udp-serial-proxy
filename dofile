@@ -1,0 +1,4 @@
+#!/bin/sh
+
+nodemcu-tool upload $1
+nodemcu-tool terminal --run $1
